@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>My Task</title>
+ <style type="text/css">
+#test1 {
+	font-size: 28px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	background-color:lightblue;
+	height: 30px;
+	padding: 20px;
+	margin: 10px;
+}
+#test2 {
+  font-size: 20px;
+  padding: 5px;
+	margin: 10px;
+}
+#test5 {
+  font-size: 20px;
+  padding: 5px;
+
+}
+.box1{
+  position: relative;
+  left: 10px;
+  top:10px;
+}
+.box2{
+  position: relative;
+  left: 10px;
+  top:25px;
+}
+</style><script type="text/javascript">
+ var question="What's your name?";
+ var response=prompt(question);
+ alert("Hello,"+ response +". Let's play a game together!");
+ function result(){
+   var response=prompt("请输入答案");
+   if(response==="小题大做，早出晚归，朝三暮四，喜上眉梢")alert("恭喜你，答对了！");
+   else alert("很遗憾，回答错误!");
+ }
+ function answer(){
+   var answer;
+   answer=confirm("确定查看答案吗?"); //在页面上弹出对话框
+   if(answer==true)alert("小题大做，早出晚归，朝三暮四，喜上眉梢");
+   else alert("加油，再思考一下！");
+ }
+ </script>
+</head>
+ <body style="background-color:lightyellow;">
+   <h1 id="test1">Guess idioms by looking at pictures.</h1>
+   <h2 id="test2">认真观察下列图片，并答出相匹配的成语。</h2>
+   <div class="box1">
+     <img src="file:///D|/课堂笔记/ch/github/creative-2022/img/题目1.jpeg" height="200px" width="300px" >
+     <img src="file:///D|/课堂笔记/ch/github/creative-2022/img/题目2.jpeg" height="200px" width="300px" >
+     <img src="file:///D|/课堂笔记/ch/github/creative-2022/img/题目3.jpeg" height="200px" width="300px" >
+     <img src="file:///D|/课堂笔记/ch/github/creative-2022/img/题目4.jpg" height="200px" width="300px" >
+   </div>
+ <div class="box2">
+   <button onclick="result()">请输入答案</button>
+   <button onclick="answer()">显示答案</button>
+</div>
+<h5 id="test5">(输入答案时请从左向右依次输入答案，中间用逗号“，”隔开。例如：输入“xxxx，xxxx，xxxx，xxxx”)</h5>
+</body>
+</html>
