@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 国内 Staticfile CDN 上的 Bootstrap5 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--滚动监听div时设置行高等等!-->
+    <style type="text/css">
+    .scrollspy-example-2 {
+       position: relative;
+       height: 350px;
+       overflow: auto;
+     }
+   </style>
+    <title>历史</title>
+  </head>
+
+
+
+
+  <!--以body为监视对象,总体样式！-->
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#section1">古代史</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">近代史</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">现代史</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <!--以body为监视对象,具体文字！第一部分古代史-->
+    <div id="section1" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+      <p>
+          <!--以div为监视对象，总体样式！-->
+          <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+            <a class="navbar-brand" href="#">古代史</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">夏商周</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">春秋战国</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">更多</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#scrollspyHeading3">魏晋南北朝</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading4">辽</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading5">明</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+         <!--以div为监视对象，具体文字!-->
+         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example-2" tabindex="0">
+           <h4 id="scrollspyHeading1">夏商周</h4>
+           <p>大同，在<b>大禹</b>划分九州的时代，是属于古冀州的，靠近九州的边界，离北方游牧民族非常近。是华夏族与北狄的交接地带。等到<b>商朝</b>的时候，商朝开国君主在今天大同南部地区，分封了一个国家，叫代国，
+             他跟商朝王室一样，姓子。代国的历史从商朝初年一直到战国初期，有一千多年的历史。代国以北就完全是游牧民族的领地，史书记载，这些部落有东胡、林胡、娄烦等几个不同的民族。</p>
+           <h4 id="scrollspyHeading2">春秋战国</h4>
+           <p>等到<b>战国时期</b>，战国七雄之一的赵国灭亡了代国，其领土就跟这些游牧名族接壤，经常受到他们的侵扰。不久，赵国就建立了强大的骑兵部队，凭借这支部队，赵国军队将东胡，林胡，娄烦这个几个民族从大同地区驱逐了出去，并在山西北部、内蒙古南部，建立了三个郡，云中郡、雁门郡和代郡，并建立了大同历史上第一座城市——平城。后来，赵武灵王的墓也建在了大同下面的灵丘县。</p>
+           <h4 id="scrollspyHeading3">魏晋南北朝</h4>
+           <p><b>西汉初年</b>，刚刚建立汉朝的汉高祖刘邦在大同白登山，被匈奴冒顿单于四十万骑兵，围困了七天七夜。据说，最后靠陈平献美人计而逃脱。从此，一直到汉武帝时期，七十多年，汉朝和匈奴一直是以和亲政策为主。
+              等到汉武帝时期，大同是边关重地，飞将军李广也长期在大同一代同匈奴作战。等到<b>三国时期</b>，这里重新被游牧民族乌桓和鲜卑占领，平城逐渐成为废墟。等到<b>南北朝时期</b>，蒙古高原上的鲜卑族逐渐强大起来了。他们建立了<b>北魏王朝</b>，他们在汉代遗址之上，重新修建了平城。公元398年，北魏帝国正式迁都平城，大同开始了他作都城的历史。</p>
+           <h4 id="scrollspyHeading4">辽</h4>
+           <p>在<b>辽代</b>，大同作为这里的地名被正式确定下来，一直到现在。看来，游牧民族对大同世界，也是非常的向往。</p>
+           <h4 id="scrollspyHeading5">明</h4>
+           <p><b>明代</b>，大同终于又回归汉民族政权的统治之下。但也意味着，他又成为边塞之地，杀戮的战场。更重要的是，自明成祖迁都北京之后，这里成为保卫北京最重要的军事重症，将会承担更多的冲击。1453年，蒙古大军入侵大同，皇帝明英宗帅50万大军御驾亲征，如同汉高祖一样，又被包围了。但这一次，他没有刘邦那样幸运能够逃脱，而是全军覆没，
+             成为中国历史上最悲惨的俘虏皇帝之一。明代，大同对北京太重要了，所以这里留下了坚固的城墙。城墙的夯土是如此的结实，以至于建国后一直没有拆除完毕。</p>
+         </div>
+      </p>
+    </div>
+  <!--以body为监视对象,具体文字！第二部分近代史-->
+    <div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
+      <p>
+          <!--以div为监视对象，总体样式！-->
+          <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+            <a class="navbar-brand" href="#">近代史</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">1900-1910</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">1910-1920</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">更多</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#scrollspyHeading3">1920-1930</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading4">1930-1940</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading5">1940-1949</a></li>
+                </ul>
+             </li>
+           </ul>
+          </nav>
+          <!--以div为监视对象，具体文字!-->
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example-2" tabindex="0">
+            <h4 id="scrollspyHeading1">1900-1910</h4>
+            <p>1900年，大同义和团和全国一样风起云涌,有四五百人,设4个团,杀洋鬼子,烧教堂。七月下旬被官司府暴力扑灭,马正太等8名首领被杀。八国联军侵入北京后,慈禧偕光绪西逃,8月30日来同,驻跸4日,沿途狂奔乱逃,军令不行,所过州,县“十室九空”,给大同人民带来奇祸。</p>
+            <h4 id="scrollspyHeading2">1910-1920</h4>
+            <p>辛亥革命武昌起义后,大同人民积极响应,于1911年11月30日午夜举义,攻下总兵府,成立军政府,后清军围城,太原革命军派续桐溪率忻代宁民团北上增援,与清军对峙。直到12月11日才达成协议,革命军南撤。民国元年(1912)大同废府留县,大同县属北路观察使。民国2年(1913)5月置雁门道,治大同,辖雁北13县、忻县地区13县,共26县。后晋北镇守使在大同驻扎。</p>
+            <h4 id="scrollspyHeading3">1920-1930</h4>
+            <p>民国16年(1927)废道后,大同为县,直属山西省,县辖5个行政区,9街585村。</p>
+            <h4 id="scrollspyHeading4">1930-1940</h4>
+            <p>抗日战争时期,大同地区行政区划为三种。日伪行政区划:1937年9月13日上午,日本关东军侵占大同城,10月15日成立伪“晋北自治政府”,隶属伪“蒙疆联合委员会”,统辖雁北13县;1939年9月改为伪“晋北政厅”,隶属伪“蒙古联合自治政府”.</p>
+            <h4 id="scrollspyHeading5">1940-1949</h4>
+            <p>1943年又改为伪“大同省公署”,隶属伪“蒙古自治邦政府”。大同县划为2街、22个联合村。1945年8月,大同被国民党阎锡山政府所统治,恢复事变前原县建制,仍属山西省,辖5个区,86个治村。成立卫戍司令部和城防司令部,建立雁北“第二战区长官司令部大同领导组”,管辖雁北各县,分第十、十一两个专署。
+              第十区辖大同、怀仁、阳高、天镇、浑源、广灵、灵丘7县;第十一区辖右玉、山阴、应县、左云、平鲁、偏关6县。行政督察员兼保安司令。1947年军政分家,改为“山西省政府大同行政公署”,大同县辖4区、30街、70治村。“雁北专员公署”、“雁北城防司令部”驻在大同城内。到1948年雁北13县政府流亡大同,
+              大同城内集中了国民党行政组织机关22个、党务机关7个、特务机关11个。共产党领导下的根据地,改东雁北二专署为第五专署,属县有灵丘、繁峙、浑源、应县、代县、山阴、大同、阳高、怀仁。1946年5月,第五专署改为冀晋区第一专署。1949年2月,撤
+              销晋绥边区,西雁北划为晋西北区,设置晋西北行政公署雁北分署。</p>
+          </div>
+      </p>
+    </div>
+  <!--以body为监视对象,具体文字！第三部分现代史-->
+    <div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+      <p>
+        <!--以div为监视对象，总体样式！-->
+        <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+          <a class="navbar-brand" href="#">现代史</a>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading1">1949.5.1.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading2">1952.11.</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">更多</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#scrollspyHeading3">1982.2.16.</a></li>
+                <li><a class="dropdown-item" href="#scrollspyHeading4">1984.</a></li>
+                <li><a class="dropdown-item" href="#scrollspyHeading5">1993.7.</a></li>
+              </ul>
+           </li>
+         </ul>
+        </nav>
+        <!--以div为监视对象，具体文字!-->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example-2" tabindex="0">
+          <h4 id="scrollspyHeading1">1949.5.1.</h4>
+          <p>大同和平解放，这座塞上古城从此获得了新生。析大同县，置大同市，隶属察哈尔省。全省划为5个区。</p>
+          <h4 id="scrollspyHeading2">1952.11</h4>
+          <p>撤销察哈尔省，大同规划山西省，为山西省省辖市，是全国最大的煤炭基地和新兴的工业城市。</p>
+          <h4 id="scrollspyHeading3">1982.2.16.</h4>
+          <p>经国务院批准为首批国家历史文化名城。</p>
+          <h4 id="scrollspyHeading4">1984.</h4>
+          <p>被国务院批准为全国十三个较大的市之一。</p>
+          <h4 id="scrollspyHeading5">1993.7.</h4>
+          <p>原雁北行署撤销，原雁北地区所属七县划归大同市。</p>
+        </div>
+      </p>
+    </div>
+  <!--底部按钮!-->
+    <a class="nav-link" href="history.html">回到顶部</a>
+    <a class="nav-link" href="../index.html">返回首页</a>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- 国内 Staticfile CDN 上的 Bootstrap5 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

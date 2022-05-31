@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 国内 Staticfile CDN 上的 Bootstrap5 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <title>My Hometown</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    .carousel img{
+      width: 100%;
+      height: 100%;
+    }
+    footer{
+      background-color: #3f3f3f;
+      color: #d5d5d5;
+      padding-top: 2rem;
+    }
+    </style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="img/logo.jpg" width="20px" height="20px"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">首页</a>
+					</li>
+          <li class="nav-item">
+            <a class="nav-link" href="网页/history.html">历史</a>
+          </li>
+					<li class="nav-item">
+						<a class="nav-link" href="网页/attraction.html">景点</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="网页/food.html">美食</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="网页/coal.html">煤都</a>
+					</li>
+				</ul>
+			</div>
+	</div>
+</nav>
+<!--- 轮播图 -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="img/轮播1.jpeg" class="d-block w-100" alt="图片走丢啦">
+			 <div class="carousel-caption">
+				 <h1 class="display-2">山西大同</h1>
+				 <h3>欢迎您</h3>
+			 </div>
+		</div>
+		<div class="carousel-item">
+			<img src="img/轮播2.jpeg" class="d-block w-100" alt="图片走丢啦">
+		</div>
+		<div class="carousel-item">
+			<img src="img/轮播3.jpeg" class="d-block w-100" alt="图片走丢啦">
+		</div>
+	</div>
+</div>
+<!--简介-->
+<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">
+        <h1>大同</h1></br>
+        <h6>古称云中、平城、云州,山西省辖地级市,是山西省政府确立的"一主三副"省域副中心城市之一。国务院批复的中部地区重点城市,山西省第二大城市 ，是国务院批复确定的中国晋冀蒙交界地区中心城市之一、重要的综合能源基地。</h6><br>
+        <h6>地处华北地区、晋北大同盆地中心、晋冀蒙三省区交界、黄土高原东北，是全晋之屏障、北方之门户，且扼晋、冀、蒙之咽喉要道，北隔长城与内蒙古乌兰察布接壤,是历代兵家必争之地，有“北方锁钥”之称。</h6><br>
+        <h6>中国最大的煤炭能源基地之一，国家重化工能源基地，神府、准格尔新兴能源区与京津唐工业区的中点。素有“凤凰城”和“中国煤都”之称。</h6></br>
+        <h6>2021年，大同全市实现地区生产总值1686亿元，同比增长7.5%。</h6>
+      </p>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+		  <a href="https://baike.baidu.com/item/%E5%A4%A7%E5%90%8C/9011?fromtitle=%E5%B1%B1%E8%A5%BF%E5%A4%A7%E5%90%8C&fromid=2171656&fr=aladdin" target="blank"><button type="button" class="btn btn-outline-primary btn-lg">百度百科</button></a>
+    </div>
+   </div>
+</div>
+
+<!--走进大同！标题 -->
+<div class="container-fluid">
+	<div class="row text-center">
+		<div class="col-12">
+			<h1 class="display-4">走进大同</h1>
+		</div>
+	</div>
+</div>
+<!--走进大同！卡片 -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<img class="card-img-top" src="img/城墙.jpeg">
+				<div class="card-body">
+					<h4 class="card-title">历史</h4>
+					<p class="card-text">对于曾经的代国南都、北魏首都，辽、金、元初陪都，真的不来了解一下这座历史文化名城吗？</p>
+					<a href="网页/history.html" class="btn btn-outline-primary">来看看吧</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<img class="card-img-top" src="img/方特.jpeg">
+				<div class="card-body">
+					<h4 class="card-title">景点</h4>
+					<p class="card-text">云冈石窟、悬空寺、华严寺、善化寺、观音堂、觉山寺塔、圆觉寺塔、边塞长城、九龙壁、代王府……真的不心动吗？</p>
+					<a href="网页/attraction.html" class="btn btn-outline-primary">来看看吧</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<img class="card-img-top" src="img/莜面.jpeg">
+				<div class="card-body">
+					<h4 class="card-title">美食</h4>
+					<p class="card-text">“北方人只吃面”“山西人天天喝醋”。还是让我来带你正真了解一下大同大同人民的饮食文化吧！</p>
+					<a href="网页/food.html" class="btn btn-outline-primary">来看看吧</a>
+				</div>
+			</div>
+		</div>
+    <div class="col-md-3">
+			<div class="card">
+				<img class="card-img-top" src="img/同煤.jpg">
+				<div class="card-body">
+					<h4 class="card-title">煤都</h4>
+					<p class="card-text">多少人认为“大同人”都是“煤老板”，唉，怎么能这样说呢，人家是辛辛苦苦的打工人啦！</p>
+					<a href="网页/coal.html" class="btn btn-outline-primary">来看看吧</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<hr class="my-4">
+</div>
+<!--- Two Column Section -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-6">
+			<h2>如果你想旅游的话</h2></br>
+			<p>当你欣赏了美丽的风景后，你的内心会被洗成一片空白，自由而宁静，因为它抚平了心底的不安；</p>
+			<p>当你尝到了极品的美食，你的内心会得到最大的满足，舒适而安逸，因为它填补了你的空虚。</p>
+			<p>来大同，带你领略气势恢宏的云冈、惊险刺激的悬空寺、神奇梦幻的方特欢乐世界……</p>
+      <p>我们还有古城墙，在这座城墙上我们能够看到62座门楼、望楼、角楼、以及城门楼四座.</p>
+      <p>南门城楼看起来最为壮观。采用三层重楼的建筑方式，其面宽可达近61米。<p/>
+			<br>
+			<a href="https://zhuanlan.zhihu.com/p/163613678" class="btn btn-primary" target="blank">旅游指南</a>
+		</div>
+		<div class="col-lg-6">
+			<img src="img/角楼.jpg"  class="img-fluid">
+		</div>
+	</div>
+</div>
+<hr class="my-4">
+<!--脚注！-->
+<footer>
+	<div class="container-fluid">
+		<div class="row text-center">
+
+      <h5>山西大同欢迎您 !</h5>
+      <hr class="my-4">
+		</div>
+		</div>
+</footer>
+
+</body>
+</html>
