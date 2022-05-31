@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 国内 Staticfile CDN 上的 Bootstrap5 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--滚动监听div时设置行高等等!-->
+    <style type="text/css">
+    .scrollspy-example-2 {
+       position: relative;
+       height: 350px;
+       overflow: auto;
+     }
+   </style>
+    <title>景点</title>
+  </head>
+  <!--以body为监视对象,总体样式！-->
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <nav class="navbar navbar-expand bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#section1">自然景观</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">著名建筑</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">休闲娱乐</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+<!--以body魏监视对象具体内容，第一部分!-->
+<div id="section1" class="container-fluid bg-success text-dark grey" style="padding:70px 20px 10px 20px;">
+<p>
+  <!--自然景观!-->
+  <div class="container-fluid">
+    	<div class="row text-center">
+    		<div class="col-12">
+    			<h1 class="display-4">自然景观</h1>
+    		</div>
+    	</div>
+    </div>
+  <!--自然景观卡片 -->
+  <div class="container-fluid">
+    <div class="row">
+  		<div class="col-md-4">
+  			<div class="card">
+  				<img class="card-img-top" src="../img/恒山.jpeg">
+  				<div class="card-body">
+  					<h4 class="card-title">恒山</h4>
+  					<p class="card-text" color="primary">
+              <ul>
+                <li>恒山位于山西省大同市浑源县城南10公里处，距大同市市区62公里。</li>
+                <li>五岳之一，为中国地理标志，是天下道教主流全真派圣地。</li></ul></p>
+  					<a href="https://baike.baidu.com/item/%E6%81%92%E5%B1%B1/395558" class="btn btn-outline-primary" target="blank">详情</a>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-md-4">
+  			<div class="card">
+  				<img class="card-img-top" src="../img/火山群.jpg">
+  				<div class="card-body">
+  					<h4 class="card-title">火山群</h4>
+  					<p class="card-text">
+              <ul>
+                <li>大同火山群是中国著名第四纪火山群。已知有30余座，分布在山西省大同市云州区和阳高县境内。</li>
+                <li>大同火山群最高大也最有名的火山有阁老山、黑山、狼窝山、金山、牌楼山、昊天山、马蹄山等七处。</li>
+              </ul>
+            </p>
+  					<a href="https://baike.baidu.com/item/%E5%A4%A7%E5%90%8C%E7%81%AB%E5%B1%B1%E7%BE%A4/564349?fr=aladdin" class="btn btn-outline-primary" target="blank">详情</a>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="col-md-4">
+  			<div class="card">
+  				<img class="card-img-top" src="../img/乌龙峡.jpeg">
+  				<div class="card-body">
+  					<h4 class="card-title">乌龙峡</h4>
+  					<p class="card-text">
+              <ul>
+                <li>乌龙峡地处桑干古道，是由火山熔岩经河水亿年冲刷形成的一条长约10公里，宽约1公里的大峡谷。</li>
+                <li>乌龙峡地处大同火山群境内，峡两岸为火山熔岩，其怪石、飞泉、乌蝶被誉为“石峡三奇”。</li>
+              </ul>
+            </p>
+  					<a href="https://baike.baidu.com/item/%E4%B9%8C%E9%BE%99%E5%B3%A1" class="btn btn-outline-primary" target="blank">详情</a>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+</p>
+</div>
+
+
+
+<!--以body魏监视对象具体内容，第二部分!-->
+<div id="section2" class="container-fluid bg-warning" style="padding:10px 20px;">
+<p>
+  <!--著名建筑! -->
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-12">
+        <h1 class="display-4">著名建筑</h1>
+      </div>
+    </div>
+  </div>
+  <!--著名建筑卡片 -->
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../img/云冈石窟.jpeg">
+        <div class="card-body">
+          <h4 class="card-title">云冈石窟</h4>
+          <p class="card-text">
+            <ul>
+              <li>大同市城西约16公里的武州山南麓、武州川的北岸，依山开凿东西绵延约1公里。主要洞窟45个，大小窟龛252个，石雕造像51000余躯，为中国规模最大的古代石窟群之一。</li>
+              <li>1961年公布为全国首批重点文物保护单位，2001年12月14日被联合国教科文组世界遗产名录，2007年5月8日被国家旅游局评为首批国家5A级旅游景区。</li>
+            </ul>
+          </p>
+          <a href="https://baike.baidu.com/item/%E4%BA%91%E5%86%88%E7%9F%B3%E7%AA%9F/1252" class="btn btn-outline-primary" target="blank">详情</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../img/悬空寺.jpeg">
+        <div class="card-body">
+          <h4 class="card-title">悬空寺</h4>
+          <p class="card-text">
+            <ul>
+              <li>悬空寺，位于大同市浑源县恒山金龙峡西侧翠屏峰峭壁间，原叫"玄空阁玄”取自于中国道教教理，后改名为“悬空寺”，</li>
+              <li>建成于公元491年，是佛、道、儒三教合一的独特寺庙。“悬空寺”建筑极具特色，以如临深渊的险峻而著称，素有“悬空寺，半天高，三根马尾空中吊”的俚语，以如临深渊的险峻而著称。</li>
+            </ul>
+          </p>
+          <a href="https://baike.baidu.com/item/%E6%82%AC%E7%A9%BA%E5%AF%BA/1132" class="btn btn-outline-primary" target="blank">详情</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../img/美术馆.jpeg">
+        <div class="card-body">
+          <h4 class="card-title">美术馆</h4>
+          <p class="card-text">
+            <ul>
+              <li>由世界著名的英国福斯特建筑事务所及中国建筑设计院设计。大同美术馆主体为全地下结构，上部采用钢结构空间桁架体系。建筑主体由四个从36米到24米高度不等的三角锥形相连而成，形成雄伟的金字塔建筑布局。</li>
+              <li>最独特的设计元素之一就是金字塔式几何外形。两对金字塔以富有动感、逐渐上升的方式排列起来，形成宽敞宏伟的巨大展厅，可以用于放置超大型艺术作品。</li>
+            </ul>
+          </p>
+          <a href="https://baike.baidu.com/item/%E5%A4%A7%E5%90%8C%E7%BE%8E%E6%9C%AF%E9%A6%86" class="btn btn-outline-primary" target="blank">详情</a>
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>
+</p>
+</div>
+
+
+<!--以body魏监视对象具体内容，第三部分!-->
+<div id="section3" class="container-fluid bg-secondary text-dark grey" style="padding:10px 20px;">
+<p>
+  <!--休闲娱乐! -->
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-12">
+        <h1 class="display-4">休闲娱乐</h1>
+      </div>
+    </div>
+  </div>
+  <!--休闲娱乐卡片 -->
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../img/方特.jpeg">
+        <div class="card-body">
+          <h4 class="card-title">方特欢乐世界</h4>
+          <p class="card-text">
+            <ul>
+              <li>大同方特欢乐世界是位于大同市平城区，总占地面积约800亩，是晋北、 蒙地区第四代高科技主题公园，以科幻和互动体验为最大特色。</li>
+              <li>2018年12月，经山西省旅游资源规划开发质量评定委员会组织评定，大同方特欢乐世界景区为国家AAAA级旅游景区。</li>
+            </ul>
+          </p>
+          <a href="https://baike.baidu.com/item/%E5%A4%A7%E5%90%8C%E6%96%B9%E7%89%B9%E6%AC%A2%E4%B9%90%E4%B8%96%E7%95%8C" class="btn btn-outline-primary" target="blank">详情</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../img/魏都.jpeg">
+        <div class="card-body">
+          <h4 class="card-title">魏都水世界</h4>
+          <p class="card-text">
+            <ul>
+              <li>魏都水世界是一个由科技及生态采摘为中心的大型水上公园娱乐项目，集农业采摘、科技果蔬园、水上公园、滑雪、滑冰、骑射、垂钓、室内健身养生、会议及休闲度假为一体的农业科技旅游观光综合体。</li>
+              <li>目前已被列入大同市2017年重点工程，2019年正在成为AAAA级国家旅游景区</li>
+            </ul>
+          </p>
+          <a href="https://baike.baidu.com/item/%E9%AD%8F%E9%83%BD%E6%B0%B4%E4%B8%96%E7%95%8C" class="btn btn-outline-primary" target="blank">详情</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../img/玉安.jpeg">
+        <div class="card-body">
+          <h4 class="card-title">玉安生态度假岛</h4>
+          <p class="card-text">
+            <ul>
+              <li>依托环山映水、杏花烂漫的优美环境，以旅游度假为主题，东方文化与现代建筑元素相融合。在规划设计中，把绿色农业、农艺展示与旅游者的广泛参与融为一体。</li>
+              <li>可集休闲度假、旅游、温泉、滑雪、会议、餐饮美食、沙滩烧烤、自然观光体验、生态采摘、垂钓、水族观赏、游泳、桑拿、健身。</li>
+            </ul>
+          </p>
+          <a href="https://baike.baidu.com/item/%E7%8E%89%E5%AE%89%E7%94%9F%E6%80%81%E5%BA%A6%E5%81%87%E5%B2%9B/7515589?fr=aladdin" class="btn btn-outline-primary" target="blank">详情</a>
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>
+</p>
+</div>
+
+<!--底部按钮!-->
+<a class="nav-link" href="attraction.html">回到顶部</a>
+<a class="nav-link" href="../index.html">返回首页</a>
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- 国内 Staticfile CDN 上的 Bootstrap5 核心 JavaScript 文件 -->
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  -->
+</body>
+</html>
